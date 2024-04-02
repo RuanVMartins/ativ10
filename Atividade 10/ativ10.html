@@ -1,0 +1,163 @@
+<style>
+body{
+    background-color: white;
+    text-align: center;
+}
+
+form {
+    
+    background-color: white;
+  margin: 0 auto;
+  width: 400px;
+  padding: 1em;
+  border: 3px solid #020202;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 1em;
+}
+  label {
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+hr{
+    background-color: rgb(0, 0, 0);
+    height: 2px;
+}
+
+.sas{
+    height: 36px; width: 100px;
+    border-radius: 18px;
+    background-color: white;
+    border-style: solid;
+    border-color: black;
+}
+
+.butones{
+    border-radius: 36px;
+    background-color: white;
+}
+
+.bb{
+    border-radius: 36px;
+    background-color: white;
+}
+
+.a{
+    background-color: white;
+  margin: 0 auto;
+  width: 800px;
+  padding: 1em;
+  border: 3px solid #020202;
+  border-style: solid;
+  border-color: rgb(0, 0, 0);
+  border-radius: 1em;
+  font-size: 18px;
+}
+
+</style>
+
+<body>
+    <div>
+        <br>
+        <hr></hr>
+        <title>Html Forms</title>
+        <h1>Formulário Html</h1>
+        <hr></hr>
+        <h4>Formulários HTML são um dos principais pontos de interação entre um usuário e um web site ou aplicativo. Eles permitem que os usuários enviem dados para o web site.</h4>
+        <br>
+
+        <form action="/pagina-processa-dados-do-form" method="post">
+            <div>
+              <label for="nome">Nome:</label>
+              <input type="text" id="nome" />
+            </div>
+            <div>
+              <label for="email">E-mail:</label>
+              <input type="email" id="email" />
+            </div>
+            <div>
+              <label for="msg">Mensagem:</label>
+              <textarea id="msg"></textarea>
+              <p><button class="sas">enviar</button></p>
+              <input type="reset">
+            </div>
+          </form>
+          <hr>
+          <title>Html Forms</title>
+         <p><h1>O que é container</h1></p>
+         <p><h4>Os conteiners são elementos que possuem a capacidade de agrupar outros elementos e conseguem transmitir suas características</h4></p>
+
+         <p><h1>Como funciona o container form</h1></p>
+         <p><h4>é um conteiners que permite agrupar controles para a entrada de dados</h4></p>
+            
+            <div>
+
+                <hr>
+                <h2>Como funciona o post?</h2>
+                <h4>  cria um par nome/valor que são passados no corpo da mensagem de pedido HTTP</h4>
+                <hr>
+                <h4>
+                
+                <h1>O que é input</h1>
+                
+                <h4>O input serve para criar controles para formulários baseados na web para receber dados do usuário</h4>
+                <br>
+                
+                <br>
+                <h1>Tipos de input:<h1>
+
+                  <div class="a">
+                    <h2>Button</h2>
+                   <h4> cria um botão generico como este ao lado <input type="button" value="butones" class="butones"></h4>
+                    <br>
+
+                   <h2>Checkbox</h2>
+                   <h4>  cria um checkbox como este ao lado <input type="checkbox" class="bb"></h4>
+                   <br>
+
+                   <h2>Color</h2>
+                   <h4>  cria um quadrado para registro de cor como este ao lado <input type="color" class="bb"></h4>
+                   <br>
+
+                   <h2>Date</h2>
+                   <h4>  cria um quadrado para registro de cor como este ao lado <input type="date" class="bb"></h4>
+                   <br>
+
+                   <h2>File</h2>
+                   <h4>  cria uma entrada para enviar um arquivo <input type="file"></h4>
+                   <br>
+
+                   <h2>hidden</h2>
+                   <h4>  o hidden n aparece na tela, serve para guardar variaveis para enviar a outros paginas <input type="hidden" class="bb"></h4>
+                   <br>
+
+                   <h2>password</h2>
+                   <h4>  cria uma entrada de texto com os caracteres protegidos como este ao lado <input type="password" class="bb"></h4>
+                   <br>
+
+                   <h2>radio</h2>
+                   <h4>  Cria uma entrada de seleção com opções feitas por seletores como este ao lado <input type="radio" class="bb"></h4>
+                   <br>
+                   
+                   <h2>range</h2>
+                   <h4>  Cria uma entrada com um slider, como este ao lado <input type="range" name="slide" class="bb"></h4>
+                   <br>
+
+                   <h2>reset</h2>
+                   <h4>  Cria um botão de reset como este ao lado <input type="reset" class="bb"></h4>
+                   <br>
+
+                   <h2>text</h2>
+                   <h4>  Cria um campo de texto como este ao lado <input type="text" class="bb"></h4>
+                   <br>
+                   </div>
+
+                  
+                   <hr>
+            </div>
+</body>
